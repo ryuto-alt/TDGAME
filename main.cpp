@@ -26,16 +26,16 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	int sceneCount = 0;
 
 	//=======フラグ=======
-	
+
+	//=======グラフハンドル========
+
+
 	//=======グラフハンドル=======
-	 
-	
-	//=======グラフハンドル=======
-	
+
 
 	//=======Audioハンドル=======
-	 
-	
+
+
 	//=======Audioハンドル=======
 
 
@@ -65,7 +65,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 		// シーン描画
 		switch (sceneCount) {
-		case title :
+		case title:
 
 			if (keys[DIK_SPACE] && preKeys[DIK_SPACE] == 0) {
 				sceneCount += 1;
