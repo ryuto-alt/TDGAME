@@ -1,5 +1,5 @@
-#include<Novice.h>
-//Audioé©çÏä÷êî
+#include "MyAudio.h"
+#include "Novice.h"
 void stopAudio(int AudioHandle)
 {
 	Novice::StopAudio(AudioHandle);
